@@ -1753,22 +1753,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 104.14 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83fd0881-6454-40d2-86a8-3e7a742d985b")
-	)
-	(wire
-		(pts
-			(xy 102.87 78.74) (xy 104.14 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13bc2199-9b02-4a32-9acd-7912d04f4753")
-	)
 	(wire
 		(pts
 			(xy 104.14 111.76) (xy 104.14 118.11)
@@ -1781,23 +1765,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 104.14 78.74)
+			(xy 104.14 76.2) (xy 104.14 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f16370e-55f0-4c0e-a7d9-fc8072fc9f32")
-	)
-	(wire
-		(pts
-			(xy 104.14 81.28) (xy 104.14 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cf57f0c-82aa-4dee-9806-c226511f67d0")
+		(uuid "e8363544-4847-485e-bdaf-e606bd95e252")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1879,7 +1853,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 72.39 0)
+		(at 132.08 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1890,7 +1864,7 @@
 		(fields_autoplaced yes)
 		(uuid "02139406-bb1d-4f2e-aa03-14d0a826c42e")
 		(property "Reference" "R1"
-			(at 161.29 71.1199 0)
+			(at 134.62 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1901,7 +1875,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 161.29 73.6599 0)
+			(at 134.62 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1912,7 +1886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.972 72.39 90)
+			(at 130.302 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1923,7 +1897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 72.39 0)
+			(at 132.08 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1934,7 +1908,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 72.39 0)
+			(at 132.08 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2765,7 +2739,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 158.75 55.88 90)
+		(at 204.47 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2776,7 +2750,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6d8fd85-e458-45eb-8e74-8914c312debc")
 		(property "Reference" "D1"
-			(at 162.56 56.1974 90)
+			(at 208.28 38.4174 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2787,7 +2761,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 162.56 58.7374 90)
+			(at 208.28 40.9574 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2798,7 +2772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 55.88 0)
+			(at 204.47 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +2783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 55.88 0)
+			(at 204.47 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,7 +2794,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 158.75 55.88 0)
+			(at 204.47 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2831,7 +2805,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 158.75 55.88 0)
+			(at 204.47 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
