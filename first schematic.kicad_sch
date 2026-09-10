@@ -1753,6 +1753,38 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 104.14 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a0155ce-c98b-45b9-995c-9a3a84e97840")
+	)
+	(junction
+		(at 132.08 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eadf9ef4-e2a7-4866-a052-263ee827094f")
+	)
+	(wire
+		(pts
+			(xy 132.08 55.88) (xy 152.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194ae27d-6a77-46ee-8e72-52406744b6c8")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302ca758-0130-4a39-b5ac-be1f74a4948c")
+	)
 	(wire
 		(pts
 			(xy 104.14 111.76) (xy 104.14 118.11)
@@ -1765,13 +1797,73 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 104.14 81.28)
+			(xy 132.08 114.3) (xy 132.08 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766b136c-ed84-4532-8675-df2b3a48ea72")
+	)
+	(wire
+		(pts
+			(xy 114.3 78.74) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc5743b-88df-445d-9e76-4b4827868d9e")
+	)
+	(wire
+		(pts
+			(xy 104.14 78.74) (xy 104.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d63d92-b618-4609-9271-aff5668aa01c")
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3) (xy 132.08 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f07755-696e-4adf-9e9b-14e2fbe3351a")
+	)
+	(wire
+		(pts
+			(xy 104.14 78.74) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91545ce-03a6-4cac-aea9-10a16a368f7f")
+	)
+	(wire
+		(pts
+			(xy 104.14 76.2) (xy 104.14 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e8363544-4847-485e-bdaf-e606bd95e252")
+	)
+	(wire
+		(pts
+			(xy 114.3 55.88) (xy 132.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e70720-3793-4d61-b679-5ad678ee3b71")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2536,7 +2628,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 60.96 88.9 90)
+		(at 57.15 86.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2547,27 +2639,29 @@
 		(fields_autoplaced yes)
 		(uuid "dafc1f81-e631-4d47-a0e5-0ee5ff4fd2b1")
 		(property "Reference" "BT1"
-			(at 59.1185 81.28 90)
+			(at 60.96 86.9314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 59.1185 83.82 90)
+			(at 60.96 89.4714 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 59.436 88.9 90)
+			(at 57.15 87.884 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2578,7 +2672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.436 88.9 90)
+			(at 57.15 87.884 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2589,7 +2683,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 60.96 88.9 0)
+			(at 57.15 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,7 +2694,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 60.96 88.9 0)
+			(at 57.15 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2611,7 +2705,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 60.96 88.9 0)
+			(at 57.15 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2622,7 +2716,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 60.96 88.9 0)
+			(at 57.15 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
