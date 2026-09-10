@@ -2036,7 +2036,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 88.9 0)
+		(at 132.08 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2047,7 +2047,7 @@
 		(fields_autoplaced yes)
 		(uuid "642cf6b9-71e2-4fab-be20-efc0326dc373")
 		(property "Reference" "R2"
-			(at 161.29 87.6299 0)
+			(at 134.62 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2058,7 +2058,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 161.29 90.1699 0)
+			(at 134.62 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2069,7 +2069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.972 88.9 90)
+			(at 130.302 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2080,7 +2080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 88.9 0)
+			(at 132.08 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2091,7 +2091,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 88.9 0)
+			(at 132.08 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2384,7 +2384,7 @@
 	)
 	(symbol
 		(lib_id "Device:Microphone_Condenser")
-		(at 158.75 140.97 0)
+		(at 132.08 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2395,7 +2395,7 @@
 		(fields_autoplaced yes)
 		(uuid "a727ff31-7d7b-43a4-9445-523ed13f1d5e")
 		(property "Reference" "MK1"
-			(at 162.56 139.0014 0)
+			(at 135.89 135.1914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2406,7 +2406,7 @@
 			)
 		)
 		(property "Value" "Microphone_Condenser"
-			(at 162.56 141.5414 0)
+			(at 135.89 137.7314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2417,7 +2417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 138.43 90)
+			(at 132.08 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2428,7 +2428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 138.43 90)
+			(at 132.08 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2439,7 +2439,7 @@
 			)
 		)
 		(property "Description" "Condenser microphone"
-			(at 158.75 140.97 0)
+			(at 132.08 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2544,7 +2544,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 123.19 0)
+		(at 132.08 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2555,7 +2555,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2aea5eb-c660-4489-8ef5-ef4fdb5ff156")
 		(property "Reference" "R4"
-			(at 161.29 121.9199 0)
+			(at 134.62 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2566,7 +2566,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 161.29 124.4599 0)
+			(at 134.62 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2577,7 +2577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.972 123.19 90)
+			(at 130.302 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2588,7 +2588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 123.19 0)
+			(at 132.08 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2599,7 +2599,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 123.19 0)
+			(at 132.08 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2739,7 +2739,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 204.47 38.1 90)
+		(at 132.08 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2750,7 +2750,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6d8fd85-e458-45eb-8e74-8914c312debc")
 		(property "Reference" "D1"
-			(at 208.28 38.4174 90)
+			(at 135.89 90.4874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2761,7 +2761,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 208.28 40.9574 90)
+			(at 135.89 93.0274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2772,7 +2772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 38.1 0)
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2783,7 +2783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 38.1 0)
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2794,7 +2794,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 204.47 38.1 0)
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2805,7 +2805,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 204.47 38.1 0)
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
