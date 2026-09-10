@@ -2118,7 +2118,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 59.69 107.95 0)
+		(at 190.5 105.41 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2129,7 +2129,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fd3881c-e47c-46fa-b86e-4c6e26cdeabe")
 		(property "Reference" "SW1"
-			(at 59.69 99.06 0)
+			(at 190.5 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2139,7 +2139,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 59.69 101.6 0)
+			(at 190.5 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2149,7 +2149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 107.95 0)
+			(at 190.5 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2160,7 +2160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 107.95 0)
+			(at 190.5 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2171,7 +2171,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 59.69 107.95 0)
+			(at 190.5 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,7 +2292,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 190.5 105.41 0)
+		(at 58.42 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2303,7 +2303,7 @@
 		(fields_autoplaced yes)
 		(uuid "85c31d83-121a-4277-964c-76ad4646856f")
 		(property "Reference" "SW1"
-			(at 190.5 96.52 0)
+			(at 58.42 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2313,7 +2313,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 190.5 99.06 0)
+			(at 58.42 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2323,7 +2323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 105.41 0)
+			(at 58.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2334,7 +2334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 105.41 0)
+			(at 58.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2345,7 +2345,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 190.5 105.41 0)
+			(at 58.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
