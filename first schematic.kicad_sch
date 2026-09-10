@@ -1753,6 +1753,52 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 104.14 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83fd0881-6454-40d2-86a8-3e7a742d985b")
+	)
+	(wire
+		(pts
+			(xy 102.87 78.74) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13bc2199-9b02-4a32-9acd-7912d04f4753")
+	)
+	(wire
+		(pts
+			(xy 104.14 111.76) (xy 104.14 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34994762-3185-41b7-8f48-8cc64e4d8dff")
+	)
+	(wire
+		(pts
+			(xy 104.14 76.2) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f16370e-55f0-4c0e-a7d9-fc8072fc9f32")
+	)
+	(wire
+		(pts
+			(xy 104.14 81.28) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf57f0c-82aa-4dee-9806-c226511f67d0")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 104.14 118.11 0)
