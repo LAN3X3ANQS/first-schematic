@@ -524,90 +524,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 158.75 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f2227f6-4221-440d-8833-4e49117acc3f")
-		(property "Reference" "R3"
-			(at 161.29 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 161.29 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.972 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1547826-9955-4610-9e89-5ed7638743ef")
-		)
-		(pin "2"
-			(uuid "fe5db12b-4698-48cc-99ba-552b78d7ee33")
-		)
-		(instances
-			(project "first schematic"
-				(path "/584d0eb4-b791-43e1-a37b-188846e3a37f"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Optical:LDR07")
-		(at 175.26 106.68 0)
+		(at 158.75 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -618,7 +536,7 @@
 		(fields_autoplaced yes)
 		(uuid "c95d25ba-8053-4960-8381-97b5c68c6a32")
 		(property "Reference" "R5"
-			(at 177.8 105.4099 0)
+			(at 161.29 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -629,7 +547,7 @@
 			)
 		)
 		(property "Value" "LDR07"
-			(at 177.8 107.9499 0)
+			(at 161.29 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -640,7 +558,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical"
-			(at 179.705 106.68 90)
+			(at 163.195 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -651,7 +569,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.tme.eu/de/Document/f2e3ad76a925811312d226c31da4cd7e/LDR07.pdf"
-			(at 175.26 107.95 0)
+			(at 158.75 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -662,7 +580,7 @@
 			)
 		)
 		(property "Description" "light dependent resistor"
-			(at 175.26 106.68 0)
+			(at 158.75 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
