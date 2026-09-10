@@ -2118,7 +2118,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 190.5 105.41 0)
+		(at 59.69 107.95 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2129,7 +2129,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fd3881c-e47c-46fa-b86e-4c6e26cdeabe")
 		(property "Reference" "SW1"
-			(at 190.5 96.52 0)
+			(at 59.69 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2139,7 +2139,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 190.5 99.06 0)
+			(at 59.69 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2149,7 +2149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 105.41 0)
+			(at 59.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2160,7 +2160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 105.41 0)
+			(at 59.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2171,7 +2171,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 190.5 105.41 0)
+			(at 59.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2626,7 +2626,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 191.77 83.82 90)
+		(at 60.96 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2637,7 +2637,7 @@
 		(fields_autoplaced yes)
 		(uuid "dafc1f81-e631-4d47-a0e5-0ee5ff4fd2b1")
 		(property "Reference" "BT1"
-			(at 189.9285 76.2 90)
+			(at 59.1185 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2647,7 +2647,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 189.9285 78.74 90)
+			(at 59.1185 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2657,7 +2657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.246 83.82 90)
+			(at 59.436 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2668,7 +2668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.246 83.82 90)
+			(at 59.436 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,7 +2679,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 191.77 83.82 0)
+			(at 60.96 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2690,7 +2690,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 191.77 83.82 0)
+			(at 60.96 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2701,7 +2701,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 191.77 83.82 0)
+			(at 60.96 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2712,7 +2712,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 191.77 83.82 0)
+			(at 60.96 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
