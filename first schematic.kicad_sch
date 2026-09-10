@@ -2210,7 +2210,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:LDR07")
-		(at 158.75 105.41 0)
+		(at 132.08 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2221,7 +2221,7 @@
 		(fields_autoplaced yes)
 		(uuid "855c488c-e277-474d-8103-6fef21e06449")
 		(property "Reference" "R3"
-			(at 161.29 104.1399 0)
+			(at 134.62 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2232,7 +2232,7 @@
 			)
 		)
 		(property "Value" "LDR07"
-			(at 161.29 106.6799 0)
+			(at 134.62 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2243,7 +2243,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical"
-			(at 163.195 105.41 90)
+			(at 136.525 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2254,7 +2254,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.tme.eu/de/Document/f2e3ad76a925811312d226c31da4cd7e/LDR07.pdf"
-			(at 158.75 106.68 0)
+			(at 132.08 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Description" "light dependent resistor"
-			(at 158.75 105.41 0)
+			(at 132.08 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
