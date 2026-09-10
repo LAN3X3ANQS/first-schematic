@@ -1767,6 +1767,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 78.74) (xy 57.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a3e1ad-409b-4af9-b138-1389c3e75051")
+	)
+	(wire
+		(pts
 			(xy 132.08 55.88) (xy 152.4 55.88)
 		)
 		(stroke
@@ -1774,6 +1784,26 @@
 			(type default)
 		)
 		(uuid "194ae27d-6a77-46ee-8e72-52406744b6c8")
+	)
+	(wire
+		(pts
+			(xy 57.15 78.74) (xy 57.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b30cd6-e811-4ef4-ad87-1badac4b1157")
+	)
+	(wire
+		(pts
+			(xy 57.15 91.44) (xy 57.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6cb9c7-49fb-4917-adf2-a39f362d5b3f")
 	)
 	(wire
 		(pts
@@ -2292,7 +2322,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 58.42 109.22 90)
+		(at 54.61 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2303,7 +2333,7 @@
 		(fields_autoplaced yes)
 		(uuid "85c31d83-121a-4277-964c-76ad4646856f")
 		(property "Reference" "SW1"
-			(at 63.5 107.9499 90)
+			(at 59.69 106.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2314,7 +2344,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 63.5 110.4899 90)
+			(at 59.69 109.2199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2325,7 +2355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 109.22 0)
+			(at 54.61 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2336,7 +2366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 109.22 0)
+			(at 54.61 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2347,7 +2377,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 58.42 109.22 0)
+			(at 54.61 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2628,7 +2658,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 57.15 86.36 180)
+		(at 57.15 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2639,29 +2669,29 @@
 		(fields_autoplaced yes)
 		(uuid "dafc1f81-e631-4d47-a0e5-0ee5ff4fd2b1")
 		(property "Reference" "BT1"
-			(at 60.96 86.9314 0)
+			(at 60.96 85.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 60.96 89.4714 0)
+			(at 60.96 88.3284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 87.884 90)
+			(at 57.15 87.376 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2672,7 +2702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 87.884 90)
+			(at 57.15 87.376 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +2713,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 57.15 86.36 0)
+			(at 57.15 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2694,7 +2724,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 57.15 86.36 0)
+			(at 57.15 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2705,7 +2735,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 57.15 86.36 0)
+			(at 57.15 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,7 +2746,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 57.15 86.36 0)
+			(at 57.15 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
